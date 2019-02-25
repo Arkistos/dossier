@@ -1,0 +1,29 @@
+Anaconda Distribution
+
+What makes Python a great tool for data science is the large community of Developers who have built Python-based data science libraries. Libraries like NumPy, SciPy, Pandas, scikit-learn, and many others are indispensable to Data Scientists working in Python. Unfortunately, juggling all of these Python libraries is challenging even for the most seasoned Programmer. They can be difficult to install, and many of them have dependencies on certain software outside of Python.
+
+Anaconda is a freely available Python distribution and package manager that solves this problem. The Anaconda Python distribution comes pre-installed with over 200 of the most popular data science Python libraries, and the Anaconda package manager provides an easy way to install over 2,000 additional packages without worrying about software dependencies. Anaconda also comes with many other popular tools, including Jupyter Notebook, which enables Data Scientists to work interactively in a browser-based environment.
+RStudio & RStudio Server
+
+RStudio is an Integrated Development Environment (IDE) tailor-made for performing interactive data analysis and more formal programming in R. It provides the perfect balance between an environment for interactive work with an R console and a data visualization panel, and a fully featured text editor with syntax highlighting and code completion.
+
+A lesser-known tool is RStudio Server, a fully functional version of the RStudio IDE that runs on a server and is accessed through the browser. This means that you can access the RStudio IDE from anywhere with an internet connection, and offload the computation to dedicated resources. This permits Data Scientists to work with potentially sensitive data without having to download it onto personal machines and to perform complex and computationally heavy work in R from any device.
+OpenRefine
+
+Originally developed by engineers at Google, OpenRefine is an open source tool for data cleaning. It allows practitioners to read in data that is messy or corrupted, perform bulk transformations to fix errors and generate clean data, and export the results in a range of useful formats.
+
+One of the best features of OpenRefine is that it tracks every operation performed on a dataset, making it easy to retrace steps and recreate workflows. This is especially useful when you have multiple files that have the same data integrity issues and require the same transformations. OpenRefine allows you to export the sequence of changes that you made to the first data file and apply it to the second, saving hours of repeated work and reducing the potential for human error.
+
+OpenRefine also has very powerful tools for dealing with messy text fields. For instance, if you have a column in your dataset with the entries “Vancouver, BC.”, “VANCOUVER BC”, and “vancouver b.c.”, OpenRefine’s text clustering tools can recognize that these are probably the same, and perform bulk transformations to apply a single label to each occurrence.
+Apache Airflow
+
+At most organizations, data does not reside in a single place, nor is it accessible by a single method. There are usually multiple databases, data stores, APIs, and other processes keeping track of data across the organization. A big part of the data team’s job is to move that data from where it resides to where it needs to be for analytics, transforming it as necessary along the way. Ideally, this work should be as automated as possible, and Apache Airflow can help.
+
+Airflow was developed for internal use by Engineers at Airbnb, and Open Sourced in 2015. It is a tool for mapping out, automating, and scheduling complex workflows that involve many different systems with interdependencies. It provides tools for monitoring the success of these pipelines and alerting Engineers if something goes wrong. Airflow also has a web-based user interface that presents workflows as a network of small jobs so that dependencies can be easily visualized.
+H2O
+
+As Machine Learning has matured, a few basic algorithms have become widely applicable. Generalized Linear Models, Tree-Based Models, and Neural Networks have all become fundamental aspects of the Machine Learning toolkit. However, while many of the usual implementations of these algorithms in R and Python are great for prototyping and proofs-of-concept, they don’t scale well to production.
+
+H2O is an open-source tool that provides efficient and scalable implementations of the most popular statistical and machine learning algorithms. It can connect to many different types of data stores and will run on anything from a single laptop to a massive computing cluster. It has robust and flexible tools for building and fine-tuning model prototypes, and models built in H2O are easy to deploy in production environments. Best of all, H2O has Python and R APIs so that data scientists can seamlessly integrate it with their existing environments.
+
+While there are many data tools available, free tools are an excellent place to start in order to speed up and refine your data processes.
